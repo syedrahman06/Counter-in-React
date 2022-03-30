@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Pacifico&family=Poppins:wght@200;300;400;500;600;700&family=Sansita+Swashed:wght@300;400;500;600;700&family=Secular+One&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.App{
+    text-align: center;
+}
+
+.head{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-weight: 500;
+}
+
+.task-head{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    padding: 3px 6px;
+    border-radius: 6px;
+    outline: none;
+    text-decoration: none;
+    border: 1px solid rgb(143, 143, 143);
+}
+
+button{
+    margin: 10px;
+    height: 48px;
+    width: 100px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 10%);
+    background-color: #0f408f;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul{
+    display: grid;
+    place-items: center;
+}
+
+li{
+    width: 500px;
+    height: 40px;
+    background-color: #0f408f;
+    margin: 10px;
+    padding-top: 12px;
+    font-size: 23px;
+    color: #fff;
+    list-style-type: none;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 10%);
+   
+}
